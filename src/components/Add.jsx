@@ -9,7 +9,7 @@ export function Add(){
             <input type="text" placeholder="Product Name"/>
             <input type="number" placeholder="Price"/>
             <textArea type="text" placeholder="Description"/>
-            <Button type="submit">Add</Button>
+            <button type="submit">Add</button>
           </form>
         </>
     )
