@@ -22,7 +22,7 @@ export function Products() {
   if (!product) return <h2>Loading...</h2>;
   return (
     <input type="text" value={p} onChange={(e)=>setP(e.target.value)}/>
-    <Button>Search</Button>
+    <button>Search</button>
     <div
       style={{
         display: "grid",
