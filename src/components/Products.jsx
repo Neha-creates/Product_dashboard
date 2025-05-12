@@ -21,6 +21,7 @@ export function Products() {
   }, []);
   if (!product) return <h2>Loading...</h2>;
   return (
+    <>
     <input type="text" value={p} onChange={(e)=>setP(e.target.value)}/>
     <button>Search</button>
     <div
@@ -39,5 +40,6 @@ export function Products() {
         </div>
       ))}
     </div>
+    </>
   );
 }
